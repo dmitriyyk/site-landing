@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    border: solid 1px red;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+.box2 {
+    border: solid 1px green;
+    width: 160px;
+    padding: 20px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.box3 {
+    border: solid 1px red;
+    border-radius: 7px;
+    padding: 50px 30px 30px 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+    width: 80%;
+}
+.box3 > p {
+    padding-bottom: 20px;
+}
+.box3 > h1 {
+    padding-bottom: 20px;
+}
+.box4 {
+    border: dotted 3px;
+    padding: 20px;
+    text-align: justify;
+    height: auto;
+    width: 82%;
+}
+.monkey-left, .monkey-right {
+    width: 200px;
+}
+.monkey-left {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.monkey-right {
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+footer {
+    height: 100px;
+}

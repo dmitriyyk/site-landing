@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height:10vh;
+}
+
+h3 {
+    color: #6d28d9;
+}
+
+.purple {
+    color: #6d28d9;
+}
+
+header {
+    background-color: #6d28d9;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+header > h2 {
+    padding: 10px;
+}
+header > .logo {
+    height: 80px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+    box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+    margin: 10px;
+    padding: 20px;
+    padding-left: 30px;
+    width: 500px;
+}
+
+.box4, .box5 {
+    text-align: center;
+}
+.box4 > h3, .box5 > h3 {
+    padding-bottom: 10px;
+}
+
+.box1 > ol {
+    padding-left: 20px;
+}
+
+.box1 > h3 {
+    padding-bottom: 10px;
+}
+
+.box1 > p {
+    padding-bottom: 7px;
+}
+
+.box2 > h3 {
+    padding-bottom: 15px;
+}
+
+.box2 > p {
+    padding-bottom: 20px;
+}
+
+.box3 > h3 {
+    padding-bottom: 10px;
+}
+
+.box3 > ul{
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.box4 > img {
+    height: 180px;
+}
+
+.box4 > p {
+    padding-bottom: 10px;
+}
+
+.box5 {
+    padding-bottom: 100px;
+}
+
+.box5 > img {
+    height: 150px;
+}
+
+footer {
+    background-color: #2e1065;
+    height: 90px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+footer > p {
+    color: aliceblue;
+}

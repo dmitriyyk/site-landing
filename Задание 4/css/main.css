@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.visitor-profile {
+    border: solid 1px blue;
+    padding: 10px;
+    
+}
+
+.visitor-profile > fieldset {
+    padding-left: 10px;
+    background-color: #faf3ee;
+    border: solid 1px #85cfcf;
+    border-radius: 5px;
+}
+
+.visitor-profile > fieldset > legend {
+    color:#85cfcf;
+    font-size: large;
+}
+
+.visitor-profile > fieldset > p > label {
+    margin-right: 60px;
+    color: #985239;
+}
+
+.form1 > p > label, .form2 > p > label, .doc-form1 > p > label, .doc-form2 > p > label {
+    display: block;
+    float: left;
+    width : 120px;  
+}
+
+.doc-form1 > p > label {
+    margin-right: 160px;
+}
+
+.doc-form1 > p {
+    display: block;
+    
+}
+
+.doc-form1 > p {
+    width: 300px;
+}
+
+.doc-form3 > .payment-border {
+    width: 180px;
+}
+
+.payment-border {
+    border: solid 1px #85cfcf;
+    width: 200px;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+.card {
+    margin-left: 40px;
+}
+
+.visitor-profile > fieldset > b > p {
+    color: #985239;
+}
+
+.visitor-profile > h2 {
+    color:#985239;
+    font-size: x-large;
+}
+
+.visitor-profile > p > input[type="submit"] {
+    margin-top: 10px;
+    background: rgb(24,131,138);
+    background: linear-gradient(349deg, rgba(24,131,138,1) 0%, rgba(67,198,176,1) 58%, rgba(37,238,212,1) 100%);
+    border: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.document {
+    background-color: #eeffff;
+}
+
+.doc-dishes-line {
+    background-color: #d0ecec;
+}

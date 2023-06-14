@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.css">
+</head>
+<body>
+    <header>
+        <h2>
+            Сайт-визитка
+        </h2>
+    </header>
+        <nav>
+            <li><a href="/Задание 1-2/index.html">Задание 1-2</a></li>
+            <li><a href="/Задание 3/index.html">Задание 3</a></li>
+            <li><a href="/Задание 4/index.html">Задание 4</a></li>
+            <li><a href="/Задание 5/index.html">Задание 5</a></li>
+            <li><a href="/Об авторе/index.html">Об авторе</a></li>
+            <li><a href="/Отзывы/index.html">Отзывы</a></li>
+        </nav>
+        <main>
+            <h1 class="heading">Задание 4</h1>
+            <form action="#" class="visitor-profile">
+                <h2>Анкета посетителя ресторана</h2>
+                <fieldset class="form1">
+                    <legend>Контактная информация</legend>
+                    <p>
+                        <label for="name">Имя</label>
+                        <input type="text" name="name">
+                    </p>
+                    <p>
+                        <label for="phone">Телефон</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label for="date">Дата посещения</label>
+                        <input type="date" name="date">
+                    </p>
+                </fieldset>
+                <fieldset class="form2">
+                    <legend>Персональная информация</legend>
+                    <p>
+                        <label for="age">Возраст</label>
+                        <input type="number" min="1" max="100" step="1" name="age">
+                    </p>
+                    <p>
+                        <label for="kitchen">Любимая кухня</label>
+                        <select name="kitchen" id="">
+                            <option value="#">Русская</option>
+                            <option value="#">Итальянская</option>
+                            <option value="#">Вегитарианская</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="dishes">Какие блюда Вы хотели бы увидеть в меню?</label>
+                        <textarea name="dishes" id="" cols="20" rows="5"></textarea>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Оценка нашего заведения</legend>
+                    <b><p>Почему Вы выбрали наше заведение?</p></b>
+                    <p>
+                        <input type="radio" name="questions">
+                        <label for="questions">Недалеко от дома работы</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="questions">
+                        <label for="questions">Увидел рекламу</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="questions">
+                        <label for="questions">Посоветовали</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="questions">
+                        <label for="questions">Оптимальное соотношение цены и качества</label>
+                    </p>
+                        <b><p>Вы будете рекомендовать наше заведение своим знакомым?</p></b>
+                    <p>
+                        <input type="radio" name="recomend">
+                        <label for="recomend">Да</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="recomend">
+                        <label for="recomend">Нет</label>
+                    </p>
+                </fieldset>
+                <p>
+                    <input type="submit" value="Отправить">
+                </p>
+            </form>
+            <div class="document">
+                <h4>Документ с несколькими формами</h4>
+                <form action="#" class="doc-form1">
+                    <p>Какое блюдо будете заказывать?</p>
+                    <p class="doc-dishes-line">
+                        <label for="pizza">Пицца</label>
+                        <input type="checkbox" name="pizza">
+                    </p>
+                    <p>
+                        <label for="hotdog">Хот-дог</label>
+                        <input type="checkbox" name="hotdog">
+                    </p>
+                    <p class="doc-dishes-line">
+                        <label for="hamburger">Гамбургер</label>
+                        <input type="checkbox" name="hamburger">
+                    </p>
+                    <p>
+                        <label for="popcorn">Попкорн</label>
+                        <input type="checkbox" name="popcorn">
+                    </p>
+                    <p class="doc-dishes-line">
+                        <label for="chupa-chups">Чупа-чупс</label>
+                        <input type="checkbox" name="chupa-chups">
+                    </p>
+                    <p>
+                        <input type="submit" value="Отправить">
+                        <input type="reset" value="Сбросить">
+                    </p>
+                </form>
+                <hr>
+                <form action="#" class="doc-form2">
+                    <p>Куда доставить заказ?</p>
+                    <p>
+                        <label for="doc-name">Имя:</label>
+                        <input type="text" name="doc-name">
+                    </p>
+                    <p>
+                        <label for="doc-surname">Фамилия:</label>
+                        <input type="text" name="doc-surname">
+                    </p>
+                    <p>
+                        <label for="doc-email">eMail:</label>
+                        <input type="email" name="doc-email">
+                        <select name="doc-select-email" id="">
+                            <option value="">@mail.ru</option>
+                            <option value="">@yandex.ru</option>
+                            <option value="">@rambler.ru</option>
+                            <option value="">@google.com</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="doc-street">Улица:</label>
+                        <select name="doc-street" id="">
+                            <option value="">Кирова</option>
+                            <option value="">Пушкина</option>
+                            <option value="">Невский проспект</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="doc-city">Город:</label>
+                        <select name="doc-city" id="">
+                            <option value="">Мyрманск</option>
+                            <option value="">Прокопьевск</option>
+                            <option value="">Москва</option>
+                            <option value="">Подольск</option>
+                        </select>
+                    </p>
+                    <p>
+                        <input type="submit" value="Отправить">
+                        <input type="reset" value="Сбросить">
+                    </p>
+                </form>
+                <hr>
+                <p>Как будете расплачиваться?</p>
+                <form action="#" class="doc-form3">
+                    <p class="payment-border">
+                        <input type="radio" name="choice-payment">
+                        <label for="choice-payment">Наличными</label>
+                    </p>
+                    <p class="payment-border">
+                        <input type="radio" name="choice-payment">
+                        <label for="choice-payment">Чеком</label>
+                    </p>
+                    <p class="payment-border">
+                        <input type="radio" name="choice-payment">
+                        <label for="choice-payment">Дебитной картой</label>
+                    </p>
+                    <div class="payment-border">
+                        <p>Кредитной карточкой</p>
+                        <p class="card">
+                            <input type="radio" name="choice-card">
+                            <label for="choice-card">MasterCard</label>
+                        </p>
+                        <p class="card">
+                            <input type="radio" name="choice-card">
+                            <label for="choice-card">Visa</label>
+                        </p>
+                        <p class="card">
+                            <input type="radio" name="choice-card">
+                            <label for="choice-card">Discovery</label>
+                        </p>
+                        <p class="card">
+                            <input type="radio" name="choice-card">
+                            <label for="choice-card">American Express</label>
+                        </p>
+                    </div>
+                    <p>
+                        <input type="submit" value="Отправить">
+                        <input type="reset" value="Сбросить">
+                    </p>
+                </form>
+            </div>
+        </main>
+    <footer>
+        <p>
+            Связь со мной:
+        </p>
+        <a href="https://vk.com/dima.k022">
+            <span class="fa-brands fa-vk"></span>
+        </a>
+        <a href="https://t.me/dimazz022">
+            <span class="fa-brands fa-telegram"></span>
+        </a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.bold-red {
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+}
+.bold-red-x-large {
+    color: red;
+    font-size: x-large;
+    font-weight: bold;
+}
+.bold-red-i {
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+}
+.blue-h {
+    color: blue;
+    text-align: center;
+}
+.blue {
+    color: blue;
+}
+.blue-i {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+.red-h {
+    color:red;
+    text-align: center;
+}
+.red {
+    color:red;
+}
+.green-h {
+    color: green;
+}
+.list-color {
+    color:rgb(146, 92, 87)
+}
